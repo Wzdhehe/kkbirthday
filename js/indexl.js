@@ -21,7 +21,7 @@ var S = {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
       // 【修改】去掉原本末尾的 "||" ，这样播完倒计时就会立刻准备跳转
-      S.UI.simulate('Hi 高科|留学第一个生日|祝你生日快乐|happy birthday！|记得打开声音|缓冲中|#countdown 3');
+      S.UI.simulate('Hi 高科|留学第一个生日|祝你生日快乐|happy birthday！|记得打开声音|Loading...|#countdown 3');
     }
 
     S.Drawing.loop(function () {
